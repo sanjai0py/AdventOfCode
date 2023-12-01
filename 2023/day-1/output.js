@@ -1,6 +1,6 @@
 const fs = require("fs");
 
-fs.readFile("./input.txt", "utf8", (err, data) => {
+fs.readFile("./ari.txt", "utf8", (err, data) => {
   if (err) throw err;
   const vals = data.split("\n");
 
